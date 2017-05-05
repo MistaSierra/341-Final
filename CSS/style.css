@@ -8,7 +8,6 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2017/04/11/15/13/paper-2221812_960_720.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
