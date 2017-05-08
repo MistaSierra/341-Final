@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 100pt;
 
 }
 
@@ -14,23 +15,21 @@ body {
 }
 
 .hero .title  {
-  font-size: 10pt;
+    font-size: 10pt;
     text-align: center;
     color: rgb(224, 165, 103);
     margin: 1 em
     padding-top: 25%
 
+
     /*margin-left: 1em;
     margin-right: 1em;
     padding: 20%;
-    padding-top: 200px;
-    text-align: center; */
-
-
+    padding-top: 200px; */
 }
 
 .title h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     letter-spacing: 0.2em;
     font-style: italic;
 
@@ -41,6 +40,7 @@ body {
     font-weight: 300;
     font-style: italic;
     line-height: 0.5em;
+    font-size: .75em;
 }
 
 .hero .nav {
@@ -90,9 +90,14 @@ body {
     }
     .hero {
       height: 40vh;
-
-
     }
+    .hero .title h1 {
+      font-size: 2em
+    }
+    .hero .title h2 {
+      font-size: 2em
+    }
+
 }
 
 
@@ -122,11 +127,13 @@ body {
 }
 
 .contact-container {
-    display: flex;
-    flex-flow: column;
     align-items: center;
-    flex-direction: row;
     background-color: rgb(192, 203, 207);
+    width: 100%;
+    padding: 1.5%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .container .content-2 {
   width: 100%;
@@ -137,9 +144,9 @@ body {
 }
 
 .container .links {
-  width: 20%;
-  height: 20%;
-  align-items: center;
+  flex-direction: row;
+  width: 15%;
+  height: 15%;
 
 
 }
