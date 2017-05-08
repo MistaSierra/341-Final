@@ -7,16 +7,14 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .hero .title  {
-  font-size: 20pt;
+  font-size: 10pt;
     text-align: center;
     color: rgb(224, 165, 103);
     margin: 1 em
@@ -89,26 +87,13 @@ body {
       padding-top: 20%;
       padding-bottom: 150px;
       padding: 10%;
-
-
-
-
     }
-}
-
-@media (max-width: 445px) {
-    .hero .title {
-      font-size: 12pt;
-    }
-
     .hero {
-      height: 50%;
+      height: 40vh;
+
+
     }
 }
-
-
-
-
 
 
 
@@ -120,12 +105,12 @@ body {
     display: flex;
     flex-flow: wrap;
     align-items: center;
-    background-color: rgb(224, 165, 103);
+    background-color: rgb(192, 203, 207);
 }
 
 .container img {
     width: 100%;
-    height: 62.5%;
+    height: 60%;
 }
 
 .container .content-1 {
@@ -133,7 +118,17 @@ body {
     padding: 1.5%;
     color: #fff;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.container .content-2 {
+  width: 100%;
+  padding: 1.5%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 @media (min-width: 650px) {
     .container img {
@@ -142,5 +137,10 @@ body {
     .container .content-1 {
         width: 30.33333%;
         height: 100%;
+    }
+}
+@media (max-width: 650px) {
+    .container .content-1 {
+      font-size: .75em;
     }
 }
