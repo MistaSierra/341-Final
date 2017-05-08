@@ -121,6 +121,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.contact-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(192, 203, 207);
+}
 .container .content-2 {
   width: 100%;
   padding: 1.5%;
@@ -129,6 +136,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container .links {
+  width: 20%;
+  height: 20%;
+  align-items: center;
+
+
+}
 
 @media (min-width: 650px) {
     .container img {
