@@ -4,4 +4,7 @@ I plan on making a simple portfolio page for myself showcasing a little of my wo
 ![Image](./images/wirefram.png)
 ![Image](./images/galleryWF.png)
 
-The most difficult part of this assignmen was the manipulation of the Hero image and have it scale appropriately. I also had issues with padding/margins and what to apply them to. But overall i'm pretty ok with the website. 
+The most difficult part of this assignmen was the manipulation of the Hero image and have it scale appropriately. I also had issues with padding/margins and what to apply them to. But overall i'm pretty ok with the website.
+
+![Image](./images/screenshot.png)
+One thing I am confused about is with there are _ between each of my buttons/links. 
